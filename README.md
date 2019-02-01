@@ -39,7 +39,7 @@ User
 <td>/api/category?api_key=...</td> <td>PUT</td> <td>JSON</td> <td>{"title":"string","id":"int"}</td> <td>change category by id</td>
 <tr>
 <tr>
-<td>/api/category?api_key=...</td> <td>Delete</td> <td>JSON</td> <td>{"id":"int"}</td> <td>delete category by id</td>
+<td>/api/category?api_key=...</td> <td>DELETE</td> <td>JSON</td> <td>{"id":"int"}</td> <td>delete category by id</td>
 <tr>  
 </table>
 Product
