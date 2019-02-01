@@ -13,7 +13,6 @@
 <li>Добавление/Редактирование/Удаление категории (для авторизованных пользователей)</li>
 <li>Добавление/Редактирование/Удаление товара (для авторизованных пользователей)</li>
 </ul> 
-
 Приложение написано на PHP.
 
 Схема роутинга :<br>
@@ -40,7 +39,7 @@ User
 <td>/api/category?api_key=...</td> <td>PUT</td> <td>JSON</td> <td>{"title":"string","id":"int"}</td> <td>change category by id</td>
 <tr>
 <tr>
-<td>/api/category?api_key=...</td> <td>Delete</td> <td>JSON</td> <td>{"id":"int"}</td> <td>delete category by id</td>
+<td>/api/category?api_key=...</td> <td>DELETE</td> <td>JSON</td> <td>{"id":"int"}</td> <td>delete category by id</td>
 <tr>  
 </table>
 Product
@@ -68,10 +67,12 @@ Product
 </tr>  
 </table> 
 Зависимости:<br>
-PHP 7.2 ; MySQL 5.7<br>
+PHP 7.2 ; MySQL 5.7<br><br>
 <ol>
-<li>Клонируем или скачиваем поект используя composer.</li>
+<li>Клонируем поект используя composer.</li>
 <li>В папке src/components/QueryBuilder.php прописываем свои данные для подключения к Базе Данных .</li>
 <li>Запускаем локальный сервер и экспортируем Базу Данных из папки DB в корне проекта.</li>
 <li>Все.</li>
 </ol> 
+Подключение к базе данных выбрал оптимальное =)<br>
+Для недовольных - я знаю что такое https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php
