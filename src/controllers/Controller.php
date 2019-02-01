@@ -30,7 +30,6 @@ class Controller
     {
         http_response_code($cod);
         header('Content-Type: application/json');
-        //header('location:' . $_SERVER['HTTP_REFERER']);
         echo json_encode( array("message" => $message));
     }
 
