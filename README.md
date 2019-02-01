@@ -68,7 +68,7 @@ Product
 </tr>  
 </table> 
 Зависимости:<br>
-PHP 7.2 ; MySQL 5.7<br>
+PHP 7.2 ; MySQL 5.7<br><br>
 <ol>
 <li>Клонируем или скачиваем поект используя composer.</li>
 <li>В папке src/components/QueryBuilder.php прописываем свои данные для подключения к Базе Данных .</li>
@@ -76,4 +76,4 @@ PHP 7.2 ; MySQL 5.7<br>
 <li>Все.</li>
 </ol> 
 Подключение к базе данных выбрал оптимальное =)<br>
-Для недовольных я знаю что такое https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php
+Для недовольных, я знаю что такое https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php
