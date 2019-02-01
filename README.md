@@ -16,6 +16,7 @@
 Приложение написано на PHP.
 
 Схема роутинга :
+User
 <table>
  <tr>
 <th>Route</th> <th>Method</th><th>Type</th><th>Posted JSON</th><th>Description</th>
@@ -23,6 +24,12 @@
 <tr>
 <td>/api/registration</td> <td>POST</td> <td>JSON</td> <td>{"login":"string","password":"string","email":"email"}</td> <td>registration user and get api_key on user email</td>
 <tr>
+ </table>
+ Category
+ <table>
+ <tr>
+<th>Route</th> <th>Method</th><th>Type</th><th>Posted JSON</th><th>Description</th>
+ </tr>
 <td>/api/category</td> <td>GET</td> <td>JSON</td> <td>-</td> <td>get category list</td>
 <tr>
 <tr>
@@ -35,3 +42,12 @@
 <td>/api/category?api_key=...</td> <td>Delete</td> <td>JSON</td> <td>{"id":"int"}</td> <td>delete category by id</td>
 <tr>  
 </table>
+Product
+<table>
+ <tr>
+<th>Route</th> <th>Method</th><th>Type</th><th>Posted JSON</th><th>Description</th>
+ </tr>
+<tr>
+<td>/api/category</td> <td>GET</td> <td>JSON</td> <td>-</td> <td>get category list</td>
+</tr>
+</table> 
