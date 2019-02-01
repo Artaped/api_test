@@ -16,4 +16,6 @@
 Приложение написано на PHP.
 
 Схема роутинга :
+<table>
 <th>Route</th> <th>Method</th><th>Type</th><th>Posted JSON</th><th>Description</th>
+</table>
