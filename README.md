@@ -33,7 +33,7 @@ User
 <td>/api/category</td> <td>GET</td> <td>JSON</td> <td>-</td> <td>get category list</td>
 <tr>
 <tr>
-<td>/api/category?api_key=....</td> <td>POST</td> <td>JSON</td> <td>{"title":"string"}</td> <td>add new category</td>
+<td>/api/category?api_key=....</td> <td>POST</td> <td>JSON</td> <td>{"title":"string"}              </td> <td>add new category</td>
 <tr>
 <tr>
 <td>/api/category?api_key=...</td> <td>PUT</td> <td>JSON</td> <td>{"title":"string","id":"int"}</td> <td>change category by id</td>
@@ -57,12 +57,12 @@ Product
 <td>/api/product/{id}/category</td> <td>GET</td> <td>JSON</td> <td>-</td> <td>get all product in category by category id</td>
 </tr>  
 <tr>
-<td>/api/product</td> <td>POST</td> <td>JSON</td> <td>{"name":"string"}</td> <td>add new product</td>
+<td>/api/product?api_key=....</td> <td>POST</td> <td>JSON</td> <td>{"name":"string"}</td> <td>add new product</td>
 </tr> 
  <tr>
-<td>/api/product</td> <td>PUT</td> <td>JSON</td> <td>{"name":"string",	"id":"int",	"category_id":["array"]}</td> <td>change product</td>
+<td>/api/product?api_key=....</td> <td>PUT</td> <td>JSON</td> <td>{"name":"string",	"id":"int",	"category_id":["array"]}</td> <td>change product</td>
 </tr>
 <tr>
-<td>/api/product</td> <td>DELETE</td> <td>JSON</td> <td>{"id":"int"}</td> <td>delete product</td>
+<td>/api/product?api_key=....</td> <td>DELETE</td> <td>JSON</td> <td>{"id":"int"}</td> <td>delete product</td>
 </tr>  
 </table> 
