@@ -16,7 +16,7 @@
 
 Приложение написано на PHP.
 
-Схема роутинга :
+Схема роутинга :<br>
 User
 <table>
  <tr>
@@ -67,3 +67,11 @@ Product
 <td>/api/product?api_key=....</td> <td>DELETE</td> <td>JSON</td> <td>{"id":"int"}</td> <td>delete product</td>
 </tr>  
 </table> 
+Зависимости:<br>
+PHP 7.2 ; MySQL 5.7<br>
+<ol>
+<li>Клонируем или скачиваем поект используя composer.</li>
+<li>В папке src/components/QueryBuilder.php прописываем свои данные для подключения к Базе Данных .</li>
+<li>Запускаем локальный сервер и экспортируем Базу Данных из папки DB в корне проекта.</li>
+<li>Все.</li>
+</ol> 
