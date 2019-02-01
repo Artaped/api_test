@@ -18,4 +18,5 @@
 Схема роутинга :
 <table>
 <th>Route</th> <th>Method</th><th>Type</th><th>Posted JSON</th><th>Description</th>
+<td>/api/registration</td> <td>POST</td> <td>JSON</td> <td>{"login":"string","password":"string","email":"email"}</td> <td>registration user and get api_key on email</td>
 </table>
