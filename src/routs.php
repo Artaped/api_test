@@ -1,9 +1,6 @@
 <?php
 define('ROOT', dirname(__FILE__));
 $dispatcher = FastRoute\simpleDispatcher(function (FastRoute\RouteCollector $r) {
-    $r->get('/', function () {
-        echo "main page";
-    });
     //api user
     $r->addRoute('POST', '/api/registration', "App\controllers\UserController/create");
     //--------------------------------------------
